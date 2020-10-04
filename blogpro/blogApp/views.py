@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 
 def home(request):
     userName=request.session.get('userName')
-    return render(request,"home.html")
+    return render(request,"index.html")
 
 
 def addUser(request):
